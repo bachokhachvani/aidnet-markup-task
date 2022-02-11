@@ -1,0 +1,1364 @@
+@font-face {
+  font-family: Sylfaen;
+  src: url(fonts/Sylfaen.ttf);
+}
+@font-face {
+  font-family: BPG Glaho WEB Caps;
+  src: url(fonts/bpg_web_glaho_caps.ttf);
+}
+@font-face {
+  font-family: BPG WEB 001 Caps;
+  src: url(fonts/bpg_web_001_caps.ttf);
+}
+h1 {
+  position: absolute;
+  height: 37px;
+  width: 1920px;
+  left: 0px;
+  top: 0px;
+  border-radius: 0px;
+
+  background: #f4f4f4;
+}
+h2 {
+  position: absolute;
+  height: 73px;
+  width: 1920px;
+  left: 0px;
+  top: 37px;
+  border-radius: 0px;
+
+  background: #00b15d;
+}
+.georgian {
+  position: absolute;
+  left: 29.48%;
+  right: 64.84%;
+  top: 0.59%;
+  bottom: 75.74%;
+
+  font-family: BPG Glaho WEB Caps;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 12px;
+  line-height: 15px;
+  display: flex;
+  align-items: center;
+
+  color: #000000;
+}
+.mobileN {
+  position: absolute;
+  left: 56.51%;
+  right: 33.18%;
+  top: 5.92%;
+  bottom: 83.43%;
+
+  font-family: Ubuntu;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 12px;
+  line-height: 14px;
+  display: flex;
+  align-items: center;
+  text-align: right;
+
+  color: #000000;
+}
+.search {
+  position: absolute;
+  left: 69.48%;
+  right: 23.33%;
+  top: 3.55%;
+  bottom: 79.29%;
+
+  font-family: BPG Glaho WEB Caps;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 12px;
+  line-height: 121.19%;
+  /* or 15px */
+
+  display: flex;
+  align-items: center;
+
+  color: #000000;
+}
+.account {
+  position: absolute;
+  left: 76.35%;
+  right: 16.46%;
+  top: 3.55%;
+  bottom: 79.29%;
+
+  font-family: BPG Glaho WEB Caps;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 12px;
+  line-height: 121.19%;
+  /* or 15px */
+
+  display: flex;
+  align-items: center;
+
+  color: #000000;
+}
+.arrow {
+  position: absolute;
+  left: 32.86%;
+  right: 66.83%;
+  top: 9.47%;
+  bottom: 86.98%;
+
+  /* background: #00B15D; */
+  /* transform: rotate(180deg); */
+}
+.mobile {
+  position: absolute;
+  left: 55.23%;
+  right: 38.23%;
+  top: 5.33%;
+  bottom: 82.84%;
+
+  /* background: #00b15d;
+  border: 0.3px solid #00b15d; */
+}
+.searchIcon {
+  position: absolute;
+  left: 68.39%;
+  right: 30.7%;
+  top: 5.92%;
+  bottom: 83.43%;
+  /* border: 0.2px solid #f4f4f4; */
+  /* box-sizing: border-box; */
+}
+
+.accountIcon {
+  position: absolute;
+  left: 75.47%;
+  right: 24.08%;
+  top: 5.92%;
+  bottom: 88.95%;
+}
+.accountIconbody {
+  position: absolute;
+  left: 75.31%;
+  right: 23.91%;
+  top: 22.06%;
+  bottom: 83.43%;
+}
+.salonshichawera {
+  position: absolute;
+  left: 30.83%;
+  right: 59.32%;
+  top: 36.09%;
+  bottom: 46.75%;
+
+  font-family: BPG WEB 001 Caps;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 13px;
+  line-height: 121.19%;
+  /* or 16px */
+
+  display: flex;
+  align-items: center;
+
+  color: #ffffff;
+}
+
+.azomvisshekveta {
+  position: absolute;
+  left: 40.05%;
+  right: 50.89%;
+  top: 36.09%;
+  bottom: 46.75%;
+
+  font-family: BPG WEB 001 Caps;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 13px;
+  line-height: 121.19%;
+  /* or 16px */
+
+  display: flex;
+  align-items: center;
+
+  color: #ffffff;
+}
+
+.chvenisalonebi {
+  position: absolute;
+  left: 49.38%;
+  right: 41.56%;
+  top: 36.09%;
+  bottom: 46.75%;
+
+  font-family: BPG WEB 001 Caps;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 13px;
+  line-height: 121.19%;
+  /* or 16px */
+
+  display: flex;
+  align-items: center;
+
+  color: #ffffff;
+}
+
+.salonshichaweraI {
+  position: absolute;
+  left: 29.48%;
+  right: 69.48%;
+  top: 37.87%;
+  bottom: 50.3%;
+}
+
+.azomvisshekvetaI {
+  position: absolute;
+  left: 38.55%;
+  right: 50.89%;
+  top: 40.09%;
+  bottom: 46.75%;
+}
+
+.chvenisalonebiI {
+  position: absolute;
+  left: 47.81%;
+  right: 51.04%;
+  top: 36.09%;
+  bottom: 50.89%;
+}
+
+.broshura {
+  position: absolute;
+  left: 58.18%;
+  right: 32.76%;
+  top: 36.09%;
+  bottom: 46.75%;
+
+  font-family: BPG WEB 001 Caps;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 13px;
+  line-height: 121.19%;
+  /* or 16px */
+
+  display: flex;
+  align-items: center;
+
+  color: #ffffff;
+}
+.broshuraI {
+  position: absolute;
+  left: 56.82%;
+  right: 42.08%;
+  top: 36.69%;
+  bottom: 50.89%;
+}
+.zarisshekveta {
+  position: absolute;
+  left: 64.32%;
+  right: 26.61%;
+  top: 36.09%;
+  bottom: 46.75%;
+
+  font-family: BPG WEB 001 Caps;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 13px;
+  line-height: 121.19%;
+  /* or 16px */
+
+  display: flex;
+  align-items: center;
+
+  color: #ffffff;
+}
+.zarisshekvetaI {
+  position: absolute;
+  left: 62.97%;
+  right: 36.04%;
+  top: 37.28%;
+  bottom: 51.48%;
+}
+.kalatashi {
+  position: absolute;
+  left: 76.88%;
+  right: 19.38%;
+  top: 34.91%;
+  bottom: 55.62%;
+
+  font-family: BPG WEB 001 Caps;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 10px;
+  line-height: 121.19%;
+  /* or 12px */
+
+  display: flex;
+  align-items: center;
+
+  color: #ffffff;
+}
+.tanxa {
+  position: absolute;
+  left: 76.88%;
+  right: 20.42%;
+  top: 60.01%;
+  bottom: 43.79%;
+
+  font-family: Sylfaen;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 11px;
+  line-height: 152.69%;
+  /* or 24px */
+
+  display: flex;
+  align-items: center;
+
+  color: #ffffff;
+}
+.kalatashiI {
+  position: absolute;
+  left: 75.1%;
+  right: 23.49%;
+  top: 35.5%;
+  bottom: 48.52%;
+}
+
+/* .bodyh1 {
+  position: absolute;
+  left: 50.83%;
+  right: 59.32%;
+  top: 0.09%;
+  bottom: 60.75%;
+
+  font-family: BPG WEB 001 Caps;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 16px;
+  align-items: center;
+
+  color: #000000;
+} */
+
+h3 {
+  position: absolute;
+  height: 59px;
+  width: 1920px;
+  left: 0px;
+  top: 110px;
+  border-radius: 0px;
+  font-family: BPG WEB 001 Caps;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 16px;
+  align-items: center;
+
+  color: #000000;
+
+  background: white;
+}
+
+.samzareulo {
+  position: absolute;
+  left: 29.48%;
+  right: 69.48%;
+  top: 37.87%;
+  bottom: 50.3%;
+}
+.arrow1 {
+  position: absolute;
+  left: 34.48%;
+  right: 69.48%;
+  top: 60.87%;
+  bottom: 50.3%;
+}
+
+.kalkulatori {
+  position: absolute;
+  left: 38.55%;
+  right: 50.89%;
+  top: 40.09%;
+  bottom: 46.75%;
+}
+
+.aqsesuarebi {
+  position: absolute;
+  left: 47.81%;
+  right: 51.04%;
+  top: 36.09%;
+  bottom: 50.89%;
+}
+
+.arrow2 {
+  position: absolute;
+  left: 52.81%;
+  right: 51.04%;
+  top: 59.09%;
+  bottom: 50.89%;
+}
+
+.aqciebi {
+  position: absolute;
+  left: 56.82%;
+  right: 42.08%;
+  top: 36.69%;
+  bottom: 50.89%;
+}
+
+.chvens {
+  position: absolute;
+  left: 64.32%;
+  right: 26.61%;
+  top: 36.09%;
+  bottom: 46.75%;
+}
+
+.arrow3 {
+  position: absolute;
+  left: 69.32%;
+  right: 26.61%;
+  top: 59.09%;
+  bottom: 46.75%;
+}
+
+.myidvelebs {
+  position: absolute;
+  left: 74.88%;
+  right: 19.38%;
+  top: 34.91%;
+  bottom: 55.62%;
+}
+
+.arrow4 {
+  position: absolute;
+  left: 79.88%;
+  right: 19.38%;
+  top: 59.09%;
+  bottom: 55.62%;
+}
+
+.futurium {
+  position: absolute;
+  left: 13.14%;
+  right: 69.64%;
+  top: 0%;
+  bottom: 41.42%;
+  background-color: white;
+}
+
+.futurium1 {
+  position: absolute;
+  left: 16.26%;
+  right: 71.93%;
+  top: 65.09%;
+  bottom: 17.16%;
+}
+
+.sliderIMG {
+  position: absolute;
+  width: 1920px;
+  height: 549px;
+  left: 0px;
+  top: 220px;
+}
+.greenrec {
+  position: absolute;
+  width: 408px;
+  height: 230px;
+  left: 412px;
+  top: 365px;
+
+  background: #00b15d;
+}
+
+.popup {
+  position: absolute;
+  width: 531px;
+  height: 290px;
+  left: 444px;
+  top: 273px;
+
+  background: #ffffff;
+}
+.popuptext {
+  position: absolute;
+  width: 530px;
+  height: 72px;
+  left: 15px;
+  top: 10px;
+
+  font-family: BPG WEB 001 Caps;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 28px;
+  line-height: 155.19%;
+  /* or 43px */
+
+  display: flex;
+  align-items: center;
+  text-align: center;
+
+  color: #000000;
+}
+
+.danishnet {
+  font-family: Sylfaen;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 155.19%;
+  /* or 25px */
+
+  display: flex;
+  align-items: center;
+  text-align: center;
+
+  color: #ffffff;
+  position: absolute;
+  width: 213.96px;
+  height: 44.73px;
+  left: 15px;
+  top: 220px;
+
+  background: #00b15d;
+}
+
+.katalogi {
+  border: 1px solid #00b15d;
+  box-sizing: border-box;
+  position: absolute;
+  width: 213.96px;
+  height: 44.73px;
+  left: 300.77px;
+  top: 220px;
+
+  font-family: Sylfaen;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 155.19%;
+  /* or 25px */
+
+  display: flex;
+  align-items: center;
+  text-align: center;
+
+  color: #000000;
+}
+
+.sliders {
+  position: absolute;
+  width: 31.46px;
+  height: 0px;
+  left: 888px;
+  top: 791px;
+  background-color: #00b15d;
+  border: 6px solid #00b15d;
+}
+
+.slider2 {
+  position: absolute;
+  width: 31.46px;
+  height: 0px;
+  left: 935.51px;
+  top: 799px;
+  background-color: #00b15d;
+  border: 2px solid rgba(0, 177, 93, 0.5);
+}
+.slider3 {
+  position: absolute;
+  width: 31.46px;
+  height: 0px;
+  left: 982.51px;
+  top: 799px;
+  background-color: #00b15d;
+  border: 2px solid rgba(0, 177, 93, 0.5);
+}
+.slider4 {
+  position: absolute;
+  width: 31.46px;
+  height: 0px;
+  left: 1029.51px;
+  top: 799px;
+  background-color: #00b15d;
+  border: 2px solid rgba(0, 177, 93, 0.5);
+}
+
+.samzareulosk {
+  position: absolute;
+  width: 466px;
+  height: 39px;
+  left: 727px;
+  top: 843px;
+
+  font-family: BPG WEB 001 Caps;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 30px;
+  line-height: 15px;
+  text-align: center;
+
+  color: #000000;
+}
+
+.slider5 {
+  position: absolute;
+  width: 76px;
+  height: 0px;
+  left: 922px;
+  top: 914px;
+
+  border: 6px solid #00b15d;
+  background-color: #00b15d;
+}
+
+.image1 {
+  position: absolute;
+  width: 370px;
+  height: 392px;
+  left: 375px;
+  top: 1033px;
+
+  background: url(image.png);
+}
+.image2 {
+  position: absolute;
+  width: 370px;
+  height: 392px;
+  left: 773px;
+  top: 1033px;
+  filter: brightness(50%);
+  background: #c4c4c4;
+}
+.image3 {
+  position: absolute;
+  width: 370px;
+  height: 392px;
+  left: 1175px;
+  top: 1033px;
+}
+
+.daxasiat1 {
+  position: absolute;
+  width: 370px;
+  height: 40px;
+  left: 375px;
+  top: 1455px;
+
+  font-family: BPG WEB 001 Caps;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 24px;
+  line-height: 121.19%;
+  /* or 29px */
+
+  color: #000000;
+}
+.daxasiat2 {
+  position: absolute;
+  width: 370px;
+  height: 40px;
+  left: 773px;
+  top: 1455px;
+
+  font-family: BPG WEB 001 Caps;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 24px;
+  line-height: 121.19%;
+  /* or 29px */
+
+  color: #000000;
+}
+.daxasiat3 {
+  position: absolute;
+  width: 155px;
+  height: 29px;
+  left: 1171px;
+  top: 1455px;
+
+  font-family: BPG WEB 001 Caps;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 24px;
+  line-height: 121.19%;
+  /* identical to box height, or 29px */
+}
+
+.lorem1 {
+  position: absolute;
+  width: 370px;
+  height: 234px;
+  left: 375px;
+  top: 1497px;
+
+  font-family: Sylfaen;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 18px;
+  line-height: 143.19%;
+  /* or 26px */
+
+  color: #737373;
+}
+.lorem2 {
+  position: absolute;
+  width: 370px;
+  height: 234px;
+  left: 773px;
+  top: 1497px;
+
+  font-family: Sylfaen;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 18px;
+  line-height: 143.19%;
+  /* or 26px */
+
+  color: #737373;
+}
+.lorem3 {
+  position: absolute;
+  width: 370px;
+  height: 234px;
+  left: 1171px;
+  top: 1497px;
+
+  font-family: Sylfaen;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 18px;
+  line-height: 143.19%;
+  /* or 26px */
+
+  color: #737373;
+}
+
+.n4 {
+  position: absolute;
+  width: 1170px;
+  height: 52px;
+  left: 300px;
+  top: 1679px;
+
+  font-family: BPG WEB 001 Caps;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 20px;
+  line-height: 15px;
+  text-align: center;
+
+  color: #41ca56;
+}
+
+.nabij {
+  position: absolute;
+  width: 1170px;
+  height: 52px;
+  left: 375px;
+  top: 1679px;
+
+  font-family: BPG WEB 001 Caps;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 30px;
+  line-height: 15px;
+  text-align: center;
+
+  color: black;
+}
+
+.tugsurt {
+  position: absolute;
+  width: 658px;
+  height: 234px;
+  left: 633px;
+  top: 1771px;
+
+  font-family: Sylfaen;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 18px;
+  line-height: 143.19%;
+  /* or 26px */
+
+  text-align: center;
+
+  color: #737373;
+}
+
+.slider6 {
+  position: absolute;
+  width: 76px;
+  height: 0px;
+  left: 922px;
+  top: 1750px;
+
+  border: 6px solid #00b15d;
+  background-color: #00b15d;
+}
+
+.rectangle1 {
+  position: absolute;
+  width: 242px;
+  height: 332px;
+  left: 400px;
+  top: 1867px;
+}
+
+.rectangle2 {
+  position: absolute;
+  width: 242px;
+  height: 332px;
+  left: 702px;
+  top: 1867px;
+}
+.rectangle3 {
+  position: absolute;
+  width: 242px;
+  height: 332px;
+  left: 1003px;
+  top: 1851px;
+}
+.rectangle4 {
+  position: absolute;
+  width: 242px;
+  height: 332px;
+  left: 1303px;
+  top: 1867px;
+}
+
+.imag1 {
+  background: url(image.png);
+  position: absolute;
+  width: 234.12px;
+  height: 334.46px;
+  left: 375.36px;
+  top: 1894.54px;
+
+  background: #c4c4c4;
+  border-radius: 10px;
+}
+.imag2 {
+  position: absolute;
+  width: 234.12px;
+  height: 334.46px;
+  left: 677.36px;
+  top: 1894.54px;
+  background: #c4c4c4;
+  border-radius: 10px;
+}
+.imag3 {
+  position: absolute;
+  width: 234.12px;
+  height: 334.46px;
+  left: 978.36px;
+  top: 1878.54px;
+
+  background: #c4c4c4;
+  border-radius: 10px;
+}
+/* image4 არ იწერდა და მთლიანად მომიწია გადმოწერა */
+.imag4 {
+  position: absolute;
+  width: 268px;
+  height: 518px;
+  left: 1277px;
+  top: 1867px;
+}
+
+.icon1 {
+  position: absolute;
+  width: 49px;
+  height: 48px;
+  left: 375px;
+  top: 1894px;
+
+  background: #000000;
+  border-radius: 10px 0px;
+}
+.icon2 {
+  position: absolute;
+  width: 49px;
+  height: 48px;
+  left: 677px;
+  top: 1894px;
+
+  background: #000000;
+  border-radius: 10px 0px;
+}
+.icon3 {
+  position: absolute;
+  width: 50px;
+  height: 48px;
+  left: 977px;
+  top: 1881px;
+
+  font-family: Sylfaen;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 28px;
+  line-height: 121.19%;
+  /* or 34px */
+
+  display: flex;
+  align-items: center;
+  text-align: center;
+
+  color: #ffffff;
+}
+.icon11 {
+  position: absolute;
+  width: 50px;
+  height: 48px;
+  left: 390px;
+  top: 1867px;
+
+  font-family: Sylfaen;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 28px;
+  line-height: 121.19%;
+  /* or 34px */
+
+  display: flex;
+  align-items: center;
+  text-align: center;
+
+  color: #ffffff;
+}
+.icon22 {
+  position: absolute;
+  width: 50px;
+  height: 48px;
+  left: 695px;
+  top: 1865px;
+
+  font-family: Sylfaen;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 28px;
+  line-height: 121.19%;
+  /* or 34px */
+
+  display: flex;
+  align-items: center;
+  text-align: center;
+
+  color: #ffffff;
+}
+.icon33 {
+  position: absolute;
+  width: 50px;
+  height: 48px;
+  left: 995px;
+  top: 1855px;
+
+  font-family: Sylfaen;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 28px;
+  line-height: 121.19%;
+  /* or 34px */
+
+  display: flex;
+  align-items: center;
+  text-align: center;
+
+  color: #ffffff;
+}
+
+.title1 {
+  position: absolute;
+  width: 228px;
+  height: 48px;
+  left: 414px;
+  top: 2262px;
+
+  font-family: BPG WEB 001 Caps;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 20px;
+  line-height: 121.19%;
+  /* or 24px */
+
+  text-align: right;
+
+  color: #000000;
+}
+.title2 {
+  position: absolute;
+  width: 228px;
+  height: 48px;
+  left: 716px;
+  top: 2262px;
+
+  font-family: BPG WEB 001 Caps;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 20px;
+  line-height: 121.19%;
+  /* or 24px */
+
+  text-align: right;
+
+  color: #000000;
+}
+.title3 {
+  position: absolute;
+  width: 294px;
+  height: 48px;
+  left: 951px;
+  top: 2262px;
+
+  font-family: BPG WEB 001 Caps;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 20px;
+  line-height: 121.19%;
+  /* or 24px */
+
+  text-align: right;
+
+  color: #000000;
+}
+.descript1 {
+  position: absolute;
+  width: 258px;
+  height: 93px;
+  left: 384px;
+  top: 2292px;
+
+  font-family: Sylfaen;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 131.69%;
+  /* or 21px */
+
+  text-align: right;
+
+  color: #737373;
+}
+.descript2 {
+  position: absolute;
+  width: 258px;
+  height: 93px;
+  left: 686px;
+  top: 2292px;
+
+  font-family: Sylfaen;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 131.69%;
+  /* or 21px */
+
+  text-align: right;
+
+  color: #737373;
+}
+.descript3 {
+  position: absolute;
+  width: 258px;
+  height: 93px;
+  left: 987px;
+  top: 2292px;
+
+  font-family: Sylfaen;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 131.69%;
+  /* or 21px */
+
+  text-align: right;
+
+  color: #737373;
+}
+
+.group1 {
+  position: absolute;
+  width: 1922px;
+  height: 320px;
+  left: 1px;
+  top: 2431px;
+}
+.dazoge {
+  position: absolute;
+  width: 490px;
+  height: 70px;
+  left: 377px;
+  top: 2576px;
+
+  font-family: BPG WEB 001 Caps;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 28px;
+  line-height: 121.19%;
+  /* or 34px */
+
+  text-align: center;
+
+  color: #ffffff;
+}
+.daiwye {
+  position: absolute;
+  width: 490px;
+  height: 70px;
+  left: 381px;
+  top: 2485px;
+
+  font-family: BPG WEB 001 Caps;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 28px;
+  line-height: 121.19%;
+  /* or 34px */
+
+  text-align: center;
+
+  color: #ffffff;
+}
+.slider7 {
+  position: absolute;
+  width: 76px;
+  height: 0px;
+  left: 588px;
+  top: 2574px;
+
+  border: 6px solid #ffffff;
+  background-color: #ffffff;
+}
+.gadaditkatalogshi {
+  position: absolute;
+  width: 247px;
+  height: 61px;
+  left: 502px;
+  top: 2664px;
+
+  font-family: Sylfaen;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 18px;
+  line-height: 121.19%;
+  /* or 22px */
+
+  display: flex;
+  align-items: center;
+  text-align: center;
+
+  color: #000000;
+  position: absolute;
+  width: 247px;
+  height: 61px;
+  left: 502px;
+  top: 2664px;
+
+  background: #ffffff;
+}
+
+.rectangleblack {
+  position: absolute;
+  left: 0px;
+  right: 0px;
+  top: 2760px;
+  bottom: 0px;
+
+  height: 540px;
+  width: 1920px;
+}
+.futurium2 {
+  position: absolute;
+  left: 330px;
+  /* right: 67.66%; */
+  top: 2850px;
+}
+
+.xelimoaw {
+  position: absolute;
+  left: 305px;
+  top: 2950px;
+
+  font-family: BPG Glaho WEB Caps;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 18px;
+  line-height: 23px;
+
+  color: #ffffff;
+}
+
+.input {
+  position: absolute;
+  height: 30px;
+  width: 270px;
+  left: 305px;
+  top: 3000px;
+  border-radius: 0px;
+
+  background: #ffffff;
+
+  font-family: Sylfaen;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 21px;
+  display: flex;
+  align-items: center;
+
+  color: #5a5a5a;
+}
+.klientebis {
+  position: absolute;
+  left: 750px;
+  top: 2850px;
+
+  font-family: BPG Glaho WEB Caps;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 18px;
+  line-height: 23px;
+
+  color: #ffffff;
+}
+.sasargeblo {
+  position: absolute;
+  left: 1050px;
+  top: 2850px;
+
+  font-family: BPG Glaho WEB Caps;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 18px;
+  line-height: 23px;
+
+  color: #ffffff;
+}
+.xshirad {
+  position: absolute;
+  left: 750px;
+  top: 2900px;
+
+  width: 250px;
+  font-family: Sylfaen;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 18px;
+  line-height: 41px;
+
+  color: #ffffff;
+}
+.gazomet {
+  position: absolute;
+  left: 1050px;
+  top: 2900px;
+
+  width: 250px;
+  font-family: Sylfaen;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 18px;
+  line-height: 41px;
+
+  color: #ffffff;
+}
+.socialuri {
+  position: absolute;
+  left: 305px;
+  top: 3030px;
+
+  font-family: BPG Glaho WEB Caps;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 18px;
+  line-height: 23px;
+
+  color: #ffffff;
+}
+.copyright {
+  position: absolute;
+  left: 305px;
+  top: 3200px;
+
+  font-family: Sylfaen;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 230.19%;
+  /* or 37px */
+
+  color: #ffffff;
+}
+.social2 {
+  position: absolute;
+  left: 305px;
+  top: 3080px;
+}
+.social3 {
+  position: absolute;
+  left: 350px;
+  top: 3080px;
+}
+.social4 {
+  position: absolute;
+  left: 400px;
+  top: 3080px;
+}
+.social5 {
+  position: absolute;
+  left: 450px;
+  top: 3080px;
+}
+.social1 {
+  position: absolute;
+  left: 545px;
+  top: 3000px;
+}
+
+.dagvikavshirdit {
+  position: absolute;
+  height: 47px;
+  width: 204px;
+  left: 305px;
+  top: 3160px;
+  background-color: #00b15d;
+
+  font-family: Sylfaen;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 18px;
+  line-height: 41px;
+  text-align: center;
+
+  color: #ffffff;
+}
+
+.gadaditkatalogshi {
+  position: absolute;
+  width: 247px;
+  height: 61px;
+  left: 845px;
+  top: 1198px;
+
+  background: #00b15d;
+  font-family: Sylfaen;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 18px;
+  line-height: 121.19%;
+  /* or 22px */
+
+  display: flex;
+  align-items: center;
+  text-align: center;
+
+  color: #ffffff;
+}
